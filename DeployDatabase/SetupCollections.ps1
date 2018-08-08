@@ -48,7 +48,7 @@ param([string]$cosmosDbName
      ,[string]$databaseName
      ,[string[]]$collectionNames
      ,[string]$principalUser
-     ,[SecureString]$principalPassword
+     ,[string]$principalPassword
      ,[string]$principalTennant)
 
 Write-Output "Loggin in with Service Principal $servicePrincipal"
